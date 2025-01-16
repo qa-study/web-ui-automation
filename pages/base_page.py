@@ -62,3 +62,9 @@ class BasePage:
         self.element_wait(selector, locator)
         element = self.driver.find_element(by=selector, value=locator)
         element.is_displayed()
+
+    def get_title(self, selector, locator):
+        self.element_wait(selector, locator)
+        element = self.driver.find_element(by=selector, value=locator)
+        element_text = element.text
+        return element_text

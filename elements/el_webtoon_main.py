@@ -13,3 +13,6 @@ xpath_webtoon_best_title = '베스트 도전 : 네이버 웹툰'
 xpath_webtoon_challenge_text = '//em[text()="도전만화"]'
 xpath_webtoon_challenge_title = '도전 만화 : 네이버 웹툰'
 xpath_webtoon_naverlogin_title = '네이버 : 로그인'
+
+xpath_webtoon_banner_1 = '//body/div[@id="root"]/div[@id="wrap"]/div[@id="container"]/div[@class="HomeView__daily_section--bBwGG"]/div[@class="DailyList__flicking_wrap--g2el0"]/div[@class="flicking-viewport"]/div[@class="flicking-camera"]/ul[@class="DailyList__daily_list--OFrID"]/li[1]/a[1]/div[1]'
+xpath_webtoon_banner_1_text = '//body/div[@id="root"]/div[@id="wrap"]/div[@id="container"]/div[@class="HomeView__daily_section--bBwGG"]/div[@class="DailyList__flicking_wrap--g2el0"]/div[@class="flicking-viewport"]/div[@class="flicking-camera"]/ul[@class="DailyList__daily_list--OFrID"]/li[1]/div[1]'
