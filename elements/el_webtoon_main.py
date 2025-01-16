@@ -13,3 +13,7 @@ xpath_webtoon_best_title = '베스트 도전 : 네이버 웹툰'
 xpath_webtoon_challenge_text = '//em[text()="도전만화"]'
 xpath_webtoon_challenge_title = '도전 만화 : 네이버 웹툰'
 xpath_webtoon_naverlogin_title = '네이버 : 로그인'
+
+xpath_search_field = '//input[@placeholder="제목/작가로 검색할 수 있습니다."]'
+xpath_search_button = '//button[contains(@class, "SearchBar__btn_search")]'
+xpath_invalid_search_result_text = '//p[contains(text(), "검색 결과가 없습니다.")]'
