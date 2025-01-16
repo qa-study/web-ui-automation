@@ -29,4 +29,4 @@ class 탭_내비게이션(BasePage):
 
     def creators_page_redirect(self):
         BasePage.click_element(self, By.XPATH, element.xpath_creators_button)
-        BasePage.driver_title(self, "네이버 : 로그인")
+        BasePage.driver_title(self, By.XPATH, element.xpath_webtoon_naverlogin_title)
