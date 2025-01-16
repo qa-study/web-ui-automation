@@ -13,3 +13,6 @@ xpath_webtoon_best_title = '베스트 도전 : 네이버 웹툰'
 xpath_webtoon_challenge_text = '//em[text()="도전만화"]'
 xpath_webtoon_challenge_title = '도전 만화 : 네이버 웹툰'
 xpath_webtoon_naverlogin_title = '네이버 : 로그인'
+
+# 내비게이션 메뉴 중 creator (담당자 : 유지민)
+xpath_creators_button = '//*[@id="wrap"]/header/div[2]/nav/div/button'
