@@ -1,3 +1,4 @@
+import utilities.helper as helper
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -36,6 +37,7 @@ class BasePage:
         """
         self.element_wait(selector, locator)
         element = self.driver.find_element(by=selector, value=locator)
+        helper.highlight(element)
         element.click()
 
     def input_element(self, selector, locator, text):
@@ -50,6 +52,7 @@ class BasePage:
         self.element_wait(selector, locator)
         element = self.driver.find_element(by=selector, value=locator)
         element.send_keys(text)
+        helper.highlight(element)
 
     def is_displayed(self, selector, locator):
         """
@@ -62,3 +65,4 @@ class BasePage:
         self.element_wait(selector, locator)
         element = self.driver.find_element(by=selector, value=locator)
         element.is_displayed()
+        helper.highlight(element)

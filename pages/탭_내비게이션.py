@@ -1,5 +1,4 @@
 import elements.el_webtoon_main as element
-import time
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
@@ -33,7 +32,6 @@ class 탭_내비게이션(BasePage):
         BasePage.driver_title(self, element.xpath_webtoon_naverlogin_title)
 
     def invalid_keyword_search_result(self):
-        time.sleep(3)
         BasePage.input_element(self, By.XPATH, element.xpath_search_field, "asDAsD25fDSDdfsewf")
         BasePage.click_element(self, By.XPATH, element.xpath_search_button)
         BasePage.is_displayed(self, By.XPATH, element.xpath_invalid_search_result_text)
